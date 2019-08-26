@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.xworkz.mips.dao.TransactionDAO;
 import com.xworkz.mips.dto.TxnRequestDTO;
 
+
 @RestController
 @RequestMapping(value = "/")
 public class TxnLogController {
